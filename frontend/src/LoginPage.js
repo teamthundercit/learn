@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 export default function EduAdaptLanding() {
   const [theme, setTheme] = useState('dark');
   const [offline, setOffline] = useState(true);
